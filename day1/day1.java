@@ -1,7 +1,7 @@
-.import java.io.File;  // Import the File class
-import java.io.FileNotFoundException;  // Import this class to handle errors
+import java.io.File;  
+import java.io.FileNotFoundException;  
 import java.util.ArrayList;
-import java.util.Scanner; // Import the Scanner class to read text files
+import java.util.Scanner; 
 
 public class day1{
 
@@ -50,7 +50,7 @@ static void find_2020_3(){
     }
 }
 
- //This is the same as find_2020_3() but less effiecient
+ //This is the same as find_2020_3() but less efficient
 static void find_2020_noob(){
     for(int i : numberlist)
         for(int j:numberlist)
