@@ -8,28 +8,25 @@ public class day1{
 static ArrayList<Integer> numberlist = new ArrayList<>();
  public static void main(String[] args) {
      readFile();
-    // find_2020();
-  //  find_2020_3();
-    find_2020_noob();
+    find_2020(); //part1
+    find_2020_3(); //part2
+   // find_2020_noob();
  }   
 
  static void readFile(){
-    //int total = 0;
+    //int ttal = 0;
     try {
-        File dict_file = new File("./day1_numbers.txt");    	
-        Scanner sc = new Scanner(dict_file);
+        File file = new File("./day1_numbers.txt");    	
+        Scanner sc = new Scanner(file);
         while (sc.hasNextInt()) {
           int number = sc.nextInt();
           numberlist.add(number);
-          //System.out.println("Mass: " + number + "\tFuel for mass: "+ (((int) number/3) - 2));
         }
         sc.close();
       } catch (FileNotFoundException e) {
         System.out.println("Invalid file");
         e.printStackTrace();
      }
-
-    // System.out.println("Total: " + total);
 }
 
 static void find_2020(){
@@ -53,6 +50,7 @@ static void find_2020_3(){
     }
 }
 
+ //This is the same as find_2020_3() but less effiecient
 static void find_2020_noob(){
     for(int i : numberlist)
         for(int j:numberlist)
