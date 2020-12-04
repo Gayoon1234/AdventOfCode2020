@@ -12,4 +12,4 @@
 - [Java Parts 1 & 2](day3/day3.java)
 
 ## Day 4
- -[Java Part 2](day4/day4.java) (If you want a clean and succinct solution, this is not it)
+- [Java Part 2](day4/day4.java) (If you want a clean and succinct solution, this is not it)
