@@ -13,3 +13,6 @@
 
 ## Day 4
 - [Java Part 2](day4/day4.java) (If you want a clean and succinct solution, this is not it)
+
+## Day 5
+- [Java Parts 1 & 2](day5/day5.java)
