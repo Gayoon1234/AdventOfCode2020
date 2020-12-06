@@ -16,3 +16,6 @@
 
 ## Day 5
 - [Java Parts 1 & 2](day5/day5.java)
+
+## Day 6
+- [Java Parts 1 & 2](day6/day6.java)
