@@ -9,7 +9,7 @@
 - [Java Parts 1 & 2](day2/day2.java)
 
 ## Day 3
-- [Java Parts 1 & 2](day3/day3.java) (Completed in >13 minutes)
+- [Java Parts 1 & 2](day3/day3.java) (Completed in under 13 minutes)
 
 ## Day 4
 - [Java Part 2](day4/day4.java) (If you want a clean and succinct solution, this is not it)
