@@ -4,7 +4,7 @@
 - [Java Parts 1 & 2](day1/day1.java)
 - [Scratch Part 1 & 2 (Scratch Website)](https://scratch.mit.edu/projects/457076143/)
 - [Scratch Solution Image (Part 1)](day1/Scratch_Solution.png)
-- [Ruby Part 1](day1/day1.rb)
+- [Ruby Parts 1 & 2](day1/day1.rb)
 
 ## Day 2
 - [Java Parts 1 & 2](day2/day2.java)
