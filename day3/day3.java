@@ -8,6 +8,7 @@ public class day3 {
 
 public static void main(String[] args) {
     readFile();
+    System.out.println(checkPath(3,1));
     System.out.println(checkPath(1,1)*checkPath(3,1)*checkPath(5,1)*checkPath(7,1)*checkPath(1,2));
 }
 
