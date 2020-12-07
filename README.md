@@ -20,3 +20,6 @@
 
 ## Day 6
 - [Java Parts 1 & 2](day6/day6.java)
+
+## Day 7
+- [Ruby Part 1](day7/day7.rb)
