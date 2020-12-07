@@ -8,15 +8,16 @@ counter = 0
 
 colors = Array.new
 colors.push("shiny gold")
+length = 0
 
-20.times{
-ax.each do |x,y|
-    y.each{|z| z.gsub! "bags","";z.gsub! "bag", "";z.gsub! ".","";z.gsub! /\d+/ ,"";z.strip!}
+until length == colors.length
+    length = colors.length
+    ax.each do |x,y|
+        y.each{|z| z.gsub! "bags","";z.gsub! "bag", "";z.gsub! ".","";z.gsub! /\d+/ ,"";z.strip!}
 
-    colors.each{|z| (counter += 1;colors.push(x)) if y.include? z}
-    colors = colors.uniq
-   
+        colors.each{|z| (counter += 1;colors.push(x)) if y.include? z}
+        colors = colors.uniq    
+    end
 end
-}
 
 puts "Part 1: #{colors.uniq.length - 1}" #to not count "shiny gold"
