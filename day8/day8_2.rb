@@ -55,6 +55,6 @@ arr.each do |line|
     arr2 = File.open("day8.txt").map(&:chomp)
     arr2[index].sub! line[0...3],replacement[line[0...3]]
 
-    puts check_if_recursive(arr2) if check_if_recursive(arr2) != -1
+    puts "#Part 2: {check_if_recursive(arr2)}" if check_if_recursive(arr2) != -1
 
 end
