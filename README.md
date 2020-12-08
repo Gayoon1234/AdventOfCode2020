@@ -26,3 +26,7 @@
 ## Day 7
 - [Ruby Part 1](day7/day7.rb)
 - [Ruby Part 2](day7/day7_2.rb)
+
+## Day 7
+- [Ruby Part 1](day8/day8.rb)
+- [Ruby Part 2](day8/day8_2.rb)
