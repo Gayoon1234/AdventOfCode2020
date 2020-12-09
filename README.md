@@ -30,3 +30,6 @@
 ## Day 8
 - [Ruby Part 1](day8/day8.rb)
 - [Ruby Part 2](day8/day8_2.rb)
+
+## Day 9
+- [Ruby Parts 1 & 2](day9.day9.rb)
