@@ -32,4 +32,4 @@
 - [Ruby Part 2](day8/day8_2.rb)
 
 ## Day 9
-- [Ruby Parts 1 & 2](day9.day9.rb)
+- [Ruby Parts 1 & 2](day9/day9.rb)
