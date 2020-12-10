@@ -8,33 +8,20 @@ index ||= 0
 
 until ran_instructions.include? index do
     
-
     instruction = current_ins[0...3].to_s
     ran_instructions.push(index)
 
-
     case instruction
         when "acc" 
-            if current_ins[4].to_s == "+"
-                accu += current_ins[5..].to_i
-            else
-                accu -= current_ins[5..].to_i
-            end
-
+            accu += current_ins[4..].to_i
             index += 1
-
+            
         when "jmp"
-            if current_ins[4].to_s == "+"
-                index += current_ins[5..].to_i
-            else
-                index -= current_ins[5..].to_i
-            end
+            index += current_ins[4..].to_i
 
         when "nop"
-            #do nothing?
             index += 1
     end
-
     current_ins = arr[index]
 end
 
