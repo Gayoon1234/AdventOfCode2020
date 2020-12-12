@@ -41,5 +41,5 @@
 ## Day 11
 - [Ruby Part 1](day11/day11.rb)
 
-## Day 10
+## Day 12
 - [Ruby Part 1](day12/day12.rb)
