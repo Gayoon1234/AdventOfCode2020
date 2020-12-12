@@ -4,6 +4,7 @@
 - [Java Parts 1 & 2](day1/day1.java)
 - [Ruby Parts 1 & 2](day1/day1.rb)
 - [Scratch Part 1 & 2 (Scratch Website)](https://scratch.mit.edu/projects/457076143/)
+- [JavaScript Part 1](day1/day1.js)
 
 ## Day 2
 - [Java Parts 1 & 2](day2/day2.java)
@@ -33,3 +34,12 @@
 
 ## Day 9
 - [Ruby Parts 1 & 2](day9/day9.rb)
+
+## Day 10
+- [Ruby Part 1](day10/day10.rb)
+
+## Day 11
+- [Ruby Part 1](day11/day11.rb)
+
+## Day 10
+- [Ruby Part 1](day12/day12.rb)
